@@ -1,6 +1,7 @@
 import React from "react"
 import {View, StyleSheet} from 'react-native'
 
+import Pai from "./src/components/direta/Pai"
 import Aleatorio from "./src/components/Aleatorio";
 import Botao from "./src/components/Botao";
 import Minmax from "./src/components/Minmax";
@@ -39,8 +40,10 @@ export default App */
 
 export default () => (
         <View style={style.App}>
+            <Pai/>
+            {/*
             <Contador/>
-            {/*<Botao/>
+            <Botao/>
             <Titulo principal='Previpalmas' secundario="Bem vindo"/>
             <Aleatorio min={1} max={60}/>
             <Aleatorio min={1} max={60}/>
