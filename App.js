@@ -1,7 +1,10 @@
 import React from "react"
-import {View, StyleSheet} from 'react-native'
-import ContadorV2 from "./src/components/contador/ContadorV2"
+import {View, StyleSheet, SafeAreaView} from 'react-native'
+import Membro from "./src/components/relacao/Membro"
 
+
+//import ContadorV2 from "./src/components/contador/ContadorV2"
+//import ParImpar from "./src/components/indereta/ParImpar"
 //import Pai from "./src/components/indereta/Pai"
 //import Aleatorio from "./src/components/Aleatorio";
 //import Botao from "./src/components/Botao";
@@ -40,9 +43,11 @@ export default App */
 } */
 
 export default () => (
-        <View style={style.App}>
-            <ContadorV2/>
+        <SafeAreaView style={style.App}>
+            <Membro/>
             {/*
+            <ParImpar num={2}/>
+            <ContadorV2/>
             <Pai/>
             <Contador/>
             <Botao/>
@@ -60,7 +65,7 @@ export default () => (
             <CompPadrao/>
             <Comp1/>
             <Comp2/> */}
-        </View>
+        </SafeAreaView>
 )
 
 const style = StyleSheet.create({
