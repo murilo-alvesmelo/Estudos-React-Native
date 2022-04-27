@@ -1,8 +1,9 @@
 import React from "react"
 import {View, StyleSheet, SafeAreaView} from 'react-native'
-import Membro from "./src/components/relacao/Membro"
+import UsuarioLogado from "./src/components/UsuarioLogado"
 
 
+//import Membro from "./src/components/relacao/Membro"
 //import ContadorV2 from "./src/components/contador/ContadorV2"
 //import ParImpar from "./src/components/indereta/ParImpar"
 //import Pai from "./src/components/indereta/Pai"
@@ -44,8 +45,9 @@ export default App */
 
 export default () => (
         <SafeAreaView style={style.App}>
-            <Membro/>
+            <UsuarioLogado usuario={{ nome: 'Murilo', email: 'murilo@icloud.com'}}/>
             {/*
+            <Membro/>
             <ParImpar num={2}/>
             <ContadorV2/>
             <Pai/>
