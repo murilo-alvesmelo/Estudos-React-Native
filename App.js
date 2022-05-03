@@ -1,7 +1,10 @@
 import React from "react"
 import {View, StyleSheet, SafeAreaView} from 'react-native'
-import FlexBoxV1 from "./src/components/layout/FlexBoxV1"
 
+//import FlexBoxV4 from "./src/components/layout/FlexBoxV4"
+//import FlexBoxV3 from "./src/components/layout/FlexBoxV3"
+//import FlexBoxV2 from "./src/components/layout/FlexBoxV2"
+//import FlexBoxV1 from "./src/components/layout/FlexBoxV1"
 //import Quadrado from "./src/components/layout/Quadrado"
 //import DigiteSeuNome from "./src/components/DigiteSeuNome"
 //import Listaprodutos from "./src/components/produtos/Listaprodutos"
@@ -48,8 +51,11 @@ export default App */
 
 export default () => (
         <SafeAreaView style={style.App}>
-            <FlexBoxV1/>
             {/*
+            <FlexBoxV4/>
+            <FlexBoxV3/>
+            <FlexBoxV2/>
+            <FlexBoxV1/>
             <DigiteSeuNome/>
             <Listaprodutos />
             <UsuarioLogado usuario={{ nome: 'Murilo', email: 'murilo@icloud.com'}}/>
